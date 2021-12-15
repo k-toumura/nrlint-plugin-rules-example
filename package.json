@@ -1,0 +1,21 @@
+{
+  "name": "nrlint-plugin-rules-example",
+  "version": "1.0.0",
+  "description": "Example rule plugin for nrlint",
+  "scripts": {
+    "build": "webpack -c ./webpack.config.js"
+  },
+  "keywords": [ "nrlint" ],
+  "license": "Apache-2.0",
+  "author": "Kunihiko Toumura",
+  "main": "rule.js",
+  "node-red": {
+    "plugins": {
+      "example-rule-plugin": "example-rule.html"
+    }
+  },
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
