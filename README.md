@@ -21,7 +21,7 @@ and emit warning when the number > 10.
 
 add following setting to ~/.node-red/.nrlintrc.js
 ```javascript
-module.export = {
+module.exports = {
     "plugins": [
         "nrlint-plugin-rules-example"
     ],
